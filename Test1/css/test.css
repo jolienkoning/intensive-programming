@@ -1,5 +1,15 @@
+body {
+	margin: 0;
+}
+
 header h1 {
 	text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .horizon ul{
@@ -9,17 +19,18 @@ header h1 {
 }
 
 .horizon li {
-	display:inline;
-	float:left;
+	display:inline-block;
+	width:25%;
+
+	background-color: grey;
+	
+
 }
 
 .horizon a {
-	display:block;
+	display:inline-block;
 	padding:10px;
-	background-color: grey;
 	text-align: center;
-	width:250px;
-	float: right;
 }
 
 .vertical ul {
@@ -41,3 +52,7 @@ nav[role="sub"] ul li {
 	display:block;
 	
 	}
+
+label {
+	display:block;
+}

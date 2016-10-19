@@ -17,9 +17,9 @@
 
     <nav role="main" class="horizon">
         <ul>
-            <li><a href="file:///C:/Users/Jolien/Documents/Creative%20Technologies%20&%20Entrepreneurship/Programming/Test1/test.html">Home</a></li><!--
+            <li><a href="test.html">Home</a></li><!--
          --><li><a href="#">Articles</a></li><!--
-         --><li><a href="file:///C:/Users/Jolien/Documents/Creative%20Technologies%20&%20Entrepreneurship/Programming/Test1/contact.html">Contact</a></li><!--
+         --><li><a href="contact.html">Contact</a></li><!--
          --><li><a href="#">Login</a></li>
         </ul>
     </nav>
@@ -42,13 +42,14 @@
     <div><p>Help me please</p></div>
 
     <p><form>
-    First name:<br>
-        <input type="text" name="firstname"><br>
-    Last name:<br>
-        <input type="text" name="lastname">
-    </form></p>
+    <label for="firstname">First name</label>
 
-    <p><form>
+        <input type="text" name="firstname" id="firstname">
+
+        <input type="text" name="lastname">
+   </p>
+
+    <p>
     I can help you with: <br>
         <input type="checkbox" name="help">HTML <br>
         <input type="checkbox" name="help">CSS<br>
@@ -63,8 +64,8 @@
     </form></p>
 
     <p><form action="action_page.php">
-        E-mail:<br>
-        <input type="text" name="E-mail" value="abc@gmail.com"><br>
+        E-mail
+        <input type="text" name="E-mail" value="abc@gmail.com">
         <input type="submit" value="Submit">
     </form></p>
 
