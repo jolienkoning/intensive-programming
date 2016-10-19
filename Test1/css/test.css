@@ -1,0 +1,43 @@
+header h1 {
+	text-align: center;
+}
+
+.horizon ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+}
+
+.horizon li {
+	display:inline;
+	float:left;
+}
+
+.horizon a {
+	display:block;
+	padding:10px;
+	background-color: grey;
+	text-align: center;
+	width:250px;
+	float: right;
+}
+
+.vertical ul {
+	list-style-type: none;
+	margin:0;
+	padding: 10px;
+}
+
+.vertical li {
+
+}
+
+.vertical a {
+	display:block;
+
+}
+
+nav[role="sub"] ul li {
+	display:block;
+	
+	}

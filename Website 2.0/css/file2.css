@@ -1,0 +1,26 @@
+body {
+
+	background-color: lightblue;
+	color: lightcoral;
+	text-align: center;
+
+
+}
+
+.big {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.grey {
+	color: grey;
+	font-size: 25px;
+}
+
+img {
+	width: 400px;
+	height: 230px;
+}
+
+ul { list-style-type: none;
+ }

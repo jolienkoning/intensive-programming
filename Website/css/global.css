@@ -1,0 +1,22 @@
+body {
+
+	background-color: pink;
+	color: purple;
+	text-align: center;
+
+
+}
+
+.bold { 
+	font-weight: bold;
+ }
+
+.grey {	
+	color: grey;
+	font-size: 30px;
+}
+
+img {
+	display: block;
+	width: 400px;
+}
