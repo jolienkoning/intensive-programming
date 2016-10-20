@@ -1,0 +1,22 @@
+body	{
+		text-align:center;
+		font-size:30px;
+}
+
+p {
+	color:darkgreen;
+}
+
+p:before {
+	content:"→";
+	background-color: lightgreen;
+	font-size: 60px;
+	color:black;
+}
+
+p:after {
+	content:"!!!!!!!!!!";
+	background-color: green;
+	font-size: 60px;
+	color:black;
+}
