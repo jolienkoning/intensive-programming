@@ -20,6 +20,7 @@
 		display:inline-block;
 		margin: 10px;
 		list-style: none;
+		float:left;
 	}
 
 	.menu {
@@ -30,11 +31,13 @@
 	.menu i {
 		display:none;	
 	}
-}
 
-li:nth-child(3n+1){
+	li:nth-child(3n+1){
 	clear:left;
 	}
+
+}
+
 
 
 
@@ -44,7 +47,7 @@ img	{
 
 li {
 	list-style: none;
-	float:left;
+
 	
 
 }
