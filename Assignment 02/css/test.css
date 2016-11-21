@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.horizon ul{
+	list-style-type: none;
+	background-color: grey;
+	margin: 0;
+	padding: 0;
+}
+
+.horizon li{
+	display:inline-block;
+	width:25%;
+	text-align: center;
+}
+
+.horizon a{
+	display: inline-block;
+	padding: 10px;
+}
+
+.vertical ul{
+	list-style-type: none;
+	display: inline-block;
+}
+
+.text {
+	width:74%;
+	text-align: center;
+	border-left: 1px solid black;
+}
+
+footer {
+	text-align: center;
+	background-color: grey;
+}
+
+.vertical {
+	width:25%;
+	
+}
+
+.row div {
+	float:left;
+	text-align: center;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav[role="sub"] ul li {
+	display:block;
+	
+	}
+/*
+
+
+
+
+nav[role="sub"] ul li {
+	display:block;
+	
+	}
+
+label {
+	display:block;
+}
